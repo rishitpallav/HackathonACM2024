@@ -1,9 +1,11 @@
 package com.iit.shareameal.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Donor {
+    @Id
     private int id;
     private String email;
     private String name;

@@ -1,9 +1,11 @@
 package com.iit.shareameal.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Leftover {
+    @Id
     private int foodId;
     private int donorId;
     private int quantity;
